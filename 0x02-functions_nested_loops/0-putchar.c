@@ -2,7 +2,8 @@
 
 /**
  * main: - prints _putchar
- * followed by a new lin
+ * followed by a new line
+ * Description: print _putchar
  * Return: 0 (success)
  */
 int main(void)
