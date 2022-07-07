@@ -5,7 +5,7 @@
  * @n: used for the argument of function
  * Return: integer value
  */
-int print_last_digit(int n)
+int print_last_digit(int c)
 {
 	c = c % 10;
 
