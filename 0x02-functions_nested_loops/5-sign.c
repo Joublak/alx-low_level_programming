@@ -2,7 +2,7 @@
 
 /**
  * print_sign - sign of a number to print.
- * @c: n is an interger
+ * @n: n is an integer
  * Return: 1 and print +, if n is greater than zero;
  * or 0 and print 0 if n is zero;
  * or -1 and print - if n is less than zero.
