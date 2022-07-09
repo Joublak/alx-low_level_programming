@@ -3,14 +3,13 @@
 /**
  * print_sign - sign of a number to print.
  * @c: n is an interger
- * Return: 1 and print +, if n is greater than zero
- * Return: 0 and peint 0 if n is zero
- * Return: -1 and print - if n is lesss than zero
+ * Return: 1 and print +, if n is greater than zero;
+ * or 0 and print 0 if n is zero;
+ * or -1 and print - if n is less than zero.
  */
+
 int print_sign(int n)
 {
-	int n;
-
 	if (n > 0)
 	{
 		_putchar('+');
