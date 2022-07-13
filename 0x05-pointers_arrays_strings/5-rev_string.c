@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev-string - reverses a string
+ * rev-string - function reverses a string
  * @s: parameter s
  */
 
@@ -17,7 +17,7 @@ void rev_string(char *s)
 		length1++;
 
 	length2 = length1 - 1;
-	for (i = 0; i < length1 / 2; i++);
+	for (i = 0; i < length1 / 2; i++)
 	{
 		tmp = s[i];
 		s[i] = s[length2];
@@ -25,4 +25,3 @@ void rev_string(char *s)
 		length2 -= 1;
 	}
 }
-	
